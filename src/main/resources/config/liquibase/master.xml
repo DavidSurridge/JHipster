@@ -11,6 +11,20 @@
     <property name="floatType" value="float" dbms="mysql, oracle, mssql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170724_added_entity_Region.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170725_added_entity_Country.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170726_added_entity_Location.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170727_added_entity_Department.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170728_added_entity_Task.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170729_added_entity_Employee.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170730_added_entity_Job.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170731_added_entity_JobHistory.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20190608170725_added_entity_constraints_Country.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170726_added_entity_constraints_Location.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170727_added_entity_constraints_Department.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170729_added_entity_constraints_Employee.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170730_added_entity_constraints_Job.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190608170731_added_entity_constraints_JobHistory.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
